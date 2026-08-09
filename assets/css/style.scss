@@ -1,0 +1,49 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  color-scheme: dark;
+  /* Extracted Party Game design tokens; source: agent-framework/design-system/tokens. */
+  --party-stage: #152a45;
+  --party-stage-border: #2d5a8a;
+  --party-action: #ed6d1f;
+  --party-action-ink: #231815;
+  --party-on-stage: #ffffff;
+  --party-highlight: #fde68a;
+}
+
+body {
+  color: var(--party-on-stage);
+  background: var(--party-stage);
+}
+
+.page-header {
+  color: var(--party-action-ink);
+  background-color: var(--party-action);
+  background-image: none;
+}
+
+.main-content {
+  color: var(--party-on-stage);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: var(--party-highlight);
+}
+
+.main-content a {
+  color: var(--party-highlight);
+}
+
+.main-content code {
+  color: var(--party-action-ink);
+  background: var(--party-highlight);
+}
+
+.site-footer {
+  border-top-color: var(--party-stage-border);
+}
