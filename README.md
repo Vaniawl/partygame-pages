@@ -1,5 +1,4 @@
-# Party Game public pages
+# HALEPA public pages
 
-Public App Store privacy policy and support pages for the local-only Party Game iPhone
+Public privacy policy and support pages for the local-only HALEPA iPhone
 application. The game source code remains in a separate private repository.
-Public privacy policy and support pages for Party Game
