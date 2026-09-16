@@ -5,42 +5,65 @@ title: HALEPA Privacy Policy
 
 # HALEPA Privacy Policy
 
-Updated: August 22, 2026. · [Українською](privacy.html)
+[Українська](privacy.html) · English
 
-HALEPA does not require an account and does not send data to the developer. The
-current version has no developer-operated server, advertising, third-party
-analytics, tracking, or automatic report uploads.
+Updated: September 13, 2026.
 
-## Data during a game
+HALEPA does not require an account or automatically send data to the developer. The
+current version has no server, advertising, third-party analytics, tracking or automatic
+report uploads.
 
-Player names, answers, scores, and match state are processed only on the
-participants' iPhones. In Party Nearby, phones exchange the required game state
-directly over an encrypted local connection. This data is not sent to Vaniawl.
+## Data during play
 
-The app may store the interface language, presentation style, sound preference,
-recent content identifiers, and up to 20 playtest reports locally. Reports contain
-only question or challenge identifiers, round type and timing, completion,
-skip/replacement, rematch intent, and optional 1–5 ratings. They contain no player
-names, answers, or device identifiers and are never uploaded automatically.
+Player names, answers, scores and match state are processed only on participants’
+iPhones. In Nearby play, phones exchange the necessary game state directly over an
+encrypted local connection. This data does not reach Vaniawl.
+
+The app may store settings, a list of recently used content IDs and up to 20 playtest
+reports locally. Reports contain only question/forfeit IDs, round type, timing,
+completion, skips/replacements, rematches and voluntary ratings from 1 to 5. They do
+not contain names, answers or device identifiers and are never sent automatically.
+
+## Technical diagnostics
+
+After an error or a connection loss or recovery, the app automatically saves a technical
+event locally. The log is limited to 100 events from the last 7 days and 64 KiB.
+Each event contains the time rounded to the minute, an error category, the game mode
+and game phase; exports also include the app version and build number. Names, answers,
+scores, room codes, session/device identifiers and arbitrary error messages are not
+recorded. Expired events are removed the next time the app or log is opened.
+
+In Settings, you can turn off collection (which deletes the log), view or clear the log,
+or explicitly share a report through the system share sheet. Reports are not sent to
+the developer automatically. If you email support, your email provider also sends your
+email address and any information you choose to include in the message.
+
+## Apple maps
+
+The game map may download map data through Apple’s system MapKit framework. These
+network requests are handled under Apple’s privacy policy. HALEPA does not request
+access to your location or send it to the developer. A selected point is a game answer,
+not the device’s location. A built-in offline map is also available.
 
 ## Local Network permission
 
-Party Nearby uses Wi-Fi/Bluetooth and the iOS Local Network permission to find
-friends nearby. It does not scan network contents or contact a developer-operated
-server.
+Nearby play uses Wi‑Fi/Bluetooth and the system Local Network permission to find
+friends nearby. This permission is not used to scan network contents or contact a
+developer-operated server.
 
-## Control and deletion
+## Managing and deleting data
 
-Content history and playtest reports can be cleared in Advanced Setup. Deleting
-the app removes its remaining local data. JSON/CSV export happens only after an
-explicit action through the system Share Sheet.
+You can clear content history and playtest reports in Advanced settings. Deleting the
+app removes its remaining local data. JSON/CSV exports happen only after an explicit
+user action through the system share sheet.
 
 ## Children and sensitive content
 
-Adult content, alcohol references, and contact challenges are disabled by default
-and require an explicit host choice. The app is not designed for unsupervised use
-by young children.
+18+ content, alcohol references and contact forfeits are off by default and require an
+explicit choice by the host. The app is not designed for young children to use on their
+own.
 
 ## Contact
 
-For privacy questions, use the [support page](support-en.html).
+For privacy questions, email [idovhosheia@gmail.com](mailto:idovhosheia@gmail.com) or
+visit the [support page](support-en.html).
