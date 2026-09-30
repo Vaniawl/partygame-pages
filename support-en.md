@@ -24,10 +24,8 @@ Email [idovhosheia@gmail.com](mailto:idovhosheia@gmail.com) with your iOS versio
 model, HALEPA version, game mode and the steps that led to the problem. Do not include
 private player names or answers.
 
-In the app, open **Settings → Diagnostics and bug report**. Review the log and tap
-**Share report** to attach technical events to your message. Sharing is voluntary; you
-can clear the log or turn off collection. If the app closed unexpectedly, include the
-approximate time: the local log does not replace Apple’s system crash report.
+If the app closed unexpectedly, include the approximate time and describe the
+action you were taking immediately before it closed.
 
 The usual time for an initial reply is up to five working days. For Nearby play issues,
 include how many iPhones were involved and whether Local Network permission was granted.
