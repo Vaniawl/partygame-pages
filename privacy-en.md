@@ -7,7 +7,7 @@ title: HALEPA Privacy Policy
 
 [Українська](privacy.html) · English
 
-Updated: September 13, 2026.
+Updated: September 30, 2026.
 
 HALEPA does not require an account or automatically send data to the developer. The
 current version has no server, advertising, third-party analytics, tracking or automatic
@@ -23,20 +23,6 @@ The app may store settings, a list of recently used content IDs and up to 20 pla
 reports locally. Reports contain only question/forfeit IDs, round type, timing,
 completion, skips/replacements, rematches and voluntary ratings from 1 to 5. They do
 not contain names, answers or device identifiers and are never sent automatically.
-
-## Technical diagnostics
-
-After an error or a connection loss or recovery, the app automatically saves a technical
-event locally. The log is limited to 100 events from the last 7 days and 64 KiB.
-Each event contains the time rounded to the minute, an error category, the game mode
-and game phase; exports also include the app version and build number. Names, answers,
-scores, room codes, session/device identifiers and arbitrary error messages are not
-recorded. Expired events are removed the next time the app or log is opened.
-
-In Settings, you can turn off collection (which deletes the log), view or clear the log,
-or explicitly share a report through the system share sheet. Reports are not sent to
-the developer automatically. If you email support, your email provider also sends your
-email address and any information you choose to include in the message.
 
 ## Apple maps
 
@@ -64,6 +50,10 @@ explicit choice by the host. The app is not designed for young children to use o
 own.
 
 ## Contact
+
+If you choose to email support, your email provider sends your email address and
+any information you include in your message. Do not include private player names
+or answers.
 
 For privacy questions, email [idovhosheia@gmail.com](mailto:idovhosheia@gmail.com) or
 visit the [support page](support-en.html).
